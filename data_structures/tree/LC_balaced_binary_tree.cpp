@@ -1,5 +1,5 @@
 //TC - O(n)
-//SC - O(1)
+//SC - O(h)
 //technique - just checking if difference b/w any two subtrees are >1.
 
 class Solution {
