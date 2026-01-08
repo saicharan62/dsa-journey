@@ -1,5 +1,5 @@
 //TC - O(n)
-//SC - O(1)
+//SC - O(h)
 //technique - diameter will be longest dist. b/w any two nodes, so just adding left&right heights recursively and updating it.
 
 class Solution {
