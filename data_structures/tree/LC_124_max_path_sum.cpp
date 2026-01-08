@@ -1,5 +1,5 @@
 //TC - O(n)
-//SC - O(1)
+//SC - O(h)
 //technique - the core logic of sum will be adding max of left&right subtrees values to the current node value, that becomes current node's sum.
 
 class Solution {
