@@ -1,5 +1,5 @@
 //TC - O(n)
-//SC - O(1)
+//SC - O(h)
 //technique - we check if the values on exact opposite nodes are same, to be a symmetric tree.
 
 class Solution {
