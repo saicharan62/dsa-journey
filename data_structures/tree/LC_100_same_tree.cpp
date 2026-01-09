@@ -1,5 +1,5 @@
-//TC - O(n*n)
-//SC - O(1)
+//TC - O(n*m)
+//SC - O(h)
 //technique - we check every value of left, right are same in both trees given.
 
 class Solution {
