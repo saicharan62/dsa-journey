@@ -1,5 +1,5 @@
 //TC - O(n)
-//SC - O()
+//SC - O(h)
 //technique - we return root as is for every node and whenever there will be returning of both numbers to a node from below, that is the LCA of given nodes.
 
 class Solution {
