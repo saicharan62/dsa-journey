@@ -1,17 +1,19 @@
-//TC - O(n)
-//SC - O(h)
-//technique - we return root as is for every node and whenever there will be returning of both numbers to a node from below, that is the LCA of given nodes.
+//TC - O(h)
+//SC - O(1)
+//technique - if nodes given are greater than root, we go search in left subtree, or vice versa.
 
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root == NULL || root == p || root == q) return root;
+        if(root == NULL) return nullptr;
 
-        TreeNode* left = lowestCommonAncestor(root->left, p, q);
-        TreeNode* right = lowestCommonAncestor(root->right, p, q);
-
-        if(left == NULL) return right;
-        else if(right == NULL) return left;
-        else return root;
+        int curr = root->val;
+        if(curr < p->val && curr < q->val){
+            return lowestCommonAncestor(root->right, p, q);
+        }
+        if(curr > p->val && curr > q->val){
+            return lowestCommonAncestor(root->left, p, q);
+        }
+        return root;
     }
 };
