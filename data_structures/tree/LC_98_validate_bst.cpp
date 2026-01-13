@@ -1,5 +1,5 @@
 //TC - O(n)
-//SC - O(h)
+//SC - O(h) or O(n) -> worst case
 //technique - we update the min and max values a node to be compared with, for every run, recursively and make sure every left is < root, and every root is > root.
 
 class Solution {
