@@ -1,3 +1,7 @@
+//TC - O(n)
+//SC - O(n)
+//technique - we use hashmap to check if the other half of sum exists as another number after subtracting it from target, for every number.
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
