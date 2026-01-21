@@ -1,34 +1,26 @@
-//TC - O(N)
+//TC - O(n)
 //SC - O(1)
+//technique - we assign current number to a variable and keep on change it, whenever count of it becomes zero.
 
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int n = nums.size();
-        int cnt = 0;
-        int el; 
+        int count = 0;
+        int elem;
 
-        for (int i = 0; i < n; i++) {
-            if (cnt == 0) {
-                cnt = 1;
-                el = nums[i];
-            } else if (el == nums[i]) {
-                cnt++;
-            } else {
-                cnt--;
+        for (int x : nums) {
+            if (count == 0) {
+                elem = x;
+                count = 1;
+            }
+            else if (x == elem) {
+                count++;
+            }
+            else {
+                count--;
             }
         }
-        int cnt1 = 0;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] == el) {
-                cnt1++;
-            }
-        }
-        
-        if (cnt1 > (n / 2)) {
-            return el;
-        }
-        
-        return -1;
+
+        return elem;
     }
 };
