@@ -1,6 +1,6 @@
 //TC - O(n)
 //SC - O(n)
-//technique - after counting frequencies, we use bucket soting method to interchange freq. values and numbers, then print top k freq. elements.
+//technique - after counting frequencies, we use bucket sorting(kind) method to interchange freq. values and numbers, then print top k freq. elements.
 
 class Solution {
 public:
