@@ -1,3 +1,7 @@
+//TC - O(1)
+//SC - O(1)
+//technique - we first calc. prefix sum of all elements and then simply calc. for whichever range we need.
+
 class NumArray {
 public:
     vector<int> prefix;
