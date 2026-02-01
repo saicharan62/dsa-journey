@@ -1,5 +1,6 @@
 //TC - O(n^2)
-//SC - O(1)   
+//SC - O(1) 
+//technique - We first sort the array, then fix one element, and use two pointers to find the remaining pair while skipping duplicates.
 
 class Solution {
 public:
