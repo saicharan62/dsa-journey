@@ -1,6 +1,6 @@
 //TC - O(n)
 //SC - O(1)
-//technique - using a helper func to check palindrome seperately
+//technique - using a helper function to check palindrome seperately
 
 class Solution {
 public:
