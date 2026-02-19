@@ -16,7 +16,7 @@ public:
 
                 int boxIndex = ((r/3)*3 + (c/3));
 
-                if(row[r].count(val) ⠺⠞⠞⠵⠟⠺⠞⠵⠺⠵⠺⠺⠞⠺⠞⠞⠞⠞⠵ box[boxIndex].count(val)){
+                if(row[r].count(val) || col[c].count(val) || box[boxIndex].count(val)){
                     return false;
                 }
 
