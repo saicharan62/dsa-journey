@@ -1,5 +1,6 @@
 //TC - O(1)
 //SC - O(1)
+//technique - we use set DS to store rows, cols, 3*3 boxes separately, then use formula to find index of elem. in box using row&col values.
 
 class Solution {
 public:
