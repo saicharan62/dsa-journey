@@ -1,8 +1,10 @@
-//TC - O(n)
-//SC - O(1)
-//technique - we use boyer-moore algo. where we first count frequencies of elements by keeping at most 2 elements at a time
+// TC - O(n)
+// SC - O(1)
+// technique - we use boyer-moore algo. where we first count frequencies of elements by keeping at most 2 elements at a time
 //            and then in next iteration, we count frequencies of those two elements to get actual freq. 
-//            so that we can figure out (n/3) times occured ones.
+//            so that we can figure out (n/3) times occured ones. 
+
+// Note - Though we are storing 2 elements extra while scanning second time, that does not affect the SC and it stays intact O(1)
 
 class Solution {
 public:
