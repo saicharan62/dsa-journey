@@ -1,3 +1,8 @@
+//TC - O(n)
+//SC - O(1)
+//technique - we count prefix sum and doing so, we look (current sum - k) value in map, and if we find one
+//            then we increment the count, in this way, we can cut the TC to O(n).
+
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
