@@ -1,0 +1,22 @@
+// TC - O(n)
+// SC - O(1)
+// technique - we calc. product from the beginning of the array elements(prefix) and product from the end of array(suffix) simultaneously and return the max among both as subarray sum. 
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        int prefix = 1, suffix = 1;
+        int ans = 0;
+        int n = nums.size();
+        for(int i=0; i<nums.size(); i++){
+            if(prefix == 0) prefix = 1;
+            if(suffix == 0) suffix = 1;
+
+            prefix *= nums[i];
+            suffix *= nums[n-i-1];
+
+            ans = max(ans, max(prefix, suffix));
+        }
+        return ans;
+    }
+};
