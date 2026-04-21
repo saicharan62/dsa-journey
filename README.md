@@ -1,2 +1,5 @@
-# dsa-journey
-This is my private repo consisting all the info about my DSA learning and solving leetcode, wait for it to become public.
+#dsa-journey
+
+This is a personal repository to track my Data Structures & Algorithms practice.
+
+Consists of LeetCode solutions, pattern-based learning, and consistent problem solving in C++.
