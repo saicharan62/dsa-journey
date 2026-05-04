@@ -1,6 +1,6 @@
-//TC - O(n)
-//SC - O(1)
-//technique - tabulation in DP, from memoization, from recursion.
+// TC - O(n)
+// SC - O(1)
+// technique - tabulation in DP, from memoization, from recursion.
 
 class Solution {
 public:
