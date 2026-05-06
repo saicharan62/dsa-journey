@@ -1,6 +1,6 @@
 // TC - O(n)
 // SC - O(1)
-// technique - if the replacements req. is > k, then we shrink the window, or else we can proceed with freq. counting and looking for max. length of sub string with single char.
+// technique - if the replacements req. is > k, then we shrink the window, or else we can proceed with freq. counting and looking for maximum length of sub string with single char.
 
 class Solution {
 public:
