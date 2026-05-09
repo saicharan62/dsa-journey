@@ -1,6 +1,6 @@
-//TC - O(n)
-//SC - O(h)
-//technique - we keep track of max element so far in the path and swap, if it's < than current element.
+// TC - O(n)
+// SC - O(h)
+// technique - we keep track of max element so far in the path and swap, if it's < than current element.
 
 class Solution {
 public:
