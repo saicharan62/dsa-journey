@@ -1,4 +1,3 @@
-#dsa-journey
 
 This is a personal repository to track my Data Structures & Algorithms practice.
 
