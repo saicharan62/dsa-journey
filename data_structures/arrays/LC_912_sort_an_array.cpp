@@ -1,4 +1,4 @@
-//TC - O(nlog(n)
+//TC - O(n log(n))
 //SC - O(1)
 //technique - divide array and sub arrays into halves, and sort them and merge into one, recursively.
 
